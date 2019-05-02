@@ -371,6 +371,7 @@ class YoutubeDl
             'convert-subtitles' => 'string',
             // Ffmpeg postprocessor
             'postprocessor-args' => 'string',
+            'list-formats' => 'bool',
         ];
 
         $resolver->setDefined(array_keys($options));
